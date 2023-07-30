@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #131112;
+}
+
+.nombre{
+    width: 100%;
+    height: 300px;
+    background: #3bcad4;
+}
+
+.nombre .content{
+    top: 8%;
+    width: 50%;
+    height: 50%;
+    position: absolute;     left: 25%;
+}
+
+.nombre .content .fullname{
+    color: #F7F7FF;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+font-size: 60px;
+margin-bottom:0%;
+}
+
+.info{
+width: 80%;
+height: auto;
+background: #60656F;
+margin: 10% auto;
+padding: 20px;
+border-radius: 30px;
+}
+
+.info .titulo-info{
+color: #F7F7FF;
+font-family: 'Dosis', sans-serif;
+font-size: xx-large;
+text-align: center;
+font-weight: bolder;
+border-bottom: 4px #F7F7FF solid;
+}
+
+.info .titulo-n{
+    color: #F7F7FF;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    display: inline;
+    margin-right: 10px;
+}
+
+.info .info-n{
+    color: #F7F7FF;
+    font-family: 'Dosis', sans-serif;
+    font-weight: normal;
+    font-size: xx-large;
+    display: inline;
+}
+
+.info .perf{
+    color: #F7F7FF;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large; 
+}
+
+.info .git{
+    color: #3bcad4;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.info .lin{
+    color: #3bcad4;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.info .fa-brands{
+    font-size: 35px;   
+}
+
+.Experiencia{
+    width: 80%;
+    height: auto;
+    background: #60656F;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.Experiencia .exp{
+    color: #F7F7FF;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.Experiencia .exp2{
+    color: #F7F7FF;
+    font-family: 'Dosis', sans-serif;
+    font-weight: normal;
+    font-size: x-large;
+}
+
+.habilida{
+    width: 80%;
+    height: auto;
+    background: #60656F;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.habilida .habili{
+    color: #F7F7FF;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.habilida .hab1{
+    color: #F7F7FF;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.habilida .hab2{
+    color: #F7F7FF;
+    font-family: 'Dosis', sans-serif;
+    font-weight: normal;
+    font-size: x-large;
+}
+
+.interes{
+    width: 80%;
+    height: auto;
+    background: #60656F;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.interes .int{
+    color: #F7F7FF;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.interes .int2{
+    color: #F7F7FF;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.interes .int3{
+    color: #F7F7FF;
+    font-family: 'Dosis', sans-serif;
+    font-weight: normal;
+    font-size: x-large;
+}
+
+.fedd .fed{
+    color: #F7F7FF;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.fedd .email{
+    color: #F7F7FF;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.fedd .tex{
+    color: #60656F;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.fedd .ima{
+    color: #60656F;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+    font-size: large
+}
+
+.fedd .contacto{
+    color: #60656F;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+    font-size: large
+}
+
+.nombre .img{
+    position: absolute;
+    top: 3%;
+    right: 16%;
+    width: 250px;
+    height: 250px;
+    border-radius: 90%;
+    overflow: hidden;
+}
+
+.nombre .img img{
+    width: 264px;
+    height: 480px;
+}
+
+.habilithead,tfoot,td {
+        background-color: #3bcad4;
+        color: #fff;
+        border-radius: 10%;
+}
+
+@media (max-width: 300px){
+    .body{
+        flex-direction: column;
+    }
+    .body{
+        flex-basis:100% ;
+    }
+}
